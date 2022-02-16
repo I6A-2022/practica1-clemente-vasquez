@@ -6,7 +6,40 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pagina de Clemente</title>
     <style>
+        
+        #idsamantha {
+            color: brown;
+        }
+        .idzagitl {
+            color: blue;
+        }
+
+        body {
+            background-color: white;
+        }
+
+        ul strong li {
+            color: blueviolet;
+        }
+
+        ol li {
+            color: yellowgreen;
+        }
+
+        ul li h2 {
+            color: yellowgreen;
+        }
+
+        #idcss {
+            color: blue;
+        }
+
+        .p {
+            color: burlywood;
+        }
+
     </style>
+    <!--Cuando se usa el selector id = es solo dirigido a uno solo class= es para varios y el etiqueta afecta a todos-->
 </head>
 <body>
 
@@ -18,16 +51,48 @@
         </strong>
     </p>
 
-    <strong><!--Negritas-->
+    
         <ul>
-            <li>Kevin</li>
-            <li>Katia</li>
-            <li>
-                <strong>S</strong>amantha
-            </li>
+            <strong><!--Negritas-->
+                <li>Kevin</li>
+                <li>Katia</li>
+                <li id="idsamantha">Samantha</li>
+            </strong>
             <li>Belén</li>
+            <li class="idzagitl">Zagitl</li>
         </ul>
-    </strong>
+    
+
+    <ol>
+        <li>Milanesa</li>
+        <li>Coloradito</li>
+        <li>Alitas</li>
+        <li>Caldo de res</li>
+        <li>Ensalda de camarón</li>
+        <li>Cevichito</li>
+    </ol>
+
+    <h1>
+        BIENVENIDO A EL EJERCICIO
+    </h1>
+    <p>
+        En este ejercicio aprenderas CSS
+    </p>
+
+    <ul>
+        <li>
+            <h2>Tema 1</h2>
+            <p class="p">INTRODUCCIÓN A HTML Y CSS</p>
+        </li>
+        <li>
+            <h2>Tema 2</h2>
+            <p class="p">INTRODUCCIÓN <strong id="idcss">CSS</strong></p>
+        </li>
+        <li>
+            <h3>Tema 3</h3>
+            <p class="p">INTRODUCCIÓN JS</p>
+        </li>
+    </ul>
 
 </body>
 </html> <!-- Etiqueta que cierrra -->
