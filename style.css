@@ -1,0 +1,39 @@
+        #idsamantha {
+            color: brown;
+        }
+        .idzagitl {
+            color: blue;
+        }
+
+        body {
+            background-color: white;
+        }
+
+        ul strong li {
+            color: blueviolet;
+        }
+
+        ol li {
+            color: yellowgreen;
+        }
+
+        ul li h2 {
+            color: yellowgreen;
+        }
+
+        #idcss {
+            color: blue;
+        }
+
+        .p {
+            color: burlywood;
+        }
+
+        /*dashed ------
+        dotted ****** 
+        solid _________*/
+
+        table, th, td {
+            border: 1px dashed red;
+            border-collapse: collapse;
+        }
