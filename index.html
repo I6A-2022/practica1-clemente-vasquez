@@ -1,98 +1,67 @@
 <!DOCTYPE html>
-<html lang="en"> <!-- Etiqueta que abre -->
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pagina de Clemente</title>
+    <title>Practica 1 - Tema 1 - Clemente Vasquez</title>
     <link rel="stylesheet" href="style.css">
-    <!--Cuando se usa el selector id = es solo dirigido a uno solo class= es para varios y el etiqueta afecta a todos-->
 </head>
 <body>
+    <div id="contenedor">
+        <header>
+            <h1>Bienvenido a mi pagina</h1>
+        </header>
 
-    <h1>ITVO</h1>
-    
-    <p>
-        <strong>
-        Bienvenido a mi pagina
-        </strong>
-    </p>
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a target="_blank" href="https://github.com/VARECLED">Mi pefil de Github</a></li>
+                <li><a href="https://www.google.com/">Acerca de</a></li>
+                <li><a target="_blank" href="https://facebook.com/">Compartir</a></li>
+            </ul>
+        </nav>
 
-    
-        <ul>
-            <strong><!--Negritas-->
-                <li>Kevin</li>
-                <li>Katia</li>
-                <li id="idsamantha">Samantha</li>
-            </strong>
-            <li>Belén</li>
-            <li class="idzagitl">Zagitl</li>
-        </ul>
-    
+        <div class="componerSalto"></div>
 
-    <ol>
-        <li>Milanesa</li>
-        <li>Coloradito</li>
-        <li>Alitas</li>
-        <li>Caldo de res</li>
-        <li>Ensalda de camarón</li>
-        <li>Cevichito</li>
-    </ol>
+        <section id="contenido">
+            <article>
+                <h2>Tema 1</h2>
+                <p>Introducción</p>
+            </article>
 
-    <h1>
-        BIENVENIDO A EL EJERCICIO
-    </h1>
-    <p>
-        En este ejercicio aprenderas CSS
-    </p>
+            <article>
+                <h2>Tema 2</h2>
+                <p>Descripcion del tema 2</p>
+            </article>
 
-    <ul>
-        <li>
-            <h2>Tema 1</h2>
-            <p class="p">INTRODUCCIÓN A HTML Y CSS</p>
-        </li>
-        <li>
-            <h2>Tema 2</h2>
-            <p class="p">INTRODUCCIÓN <strong id="idcss">CSS</strong></p>
-        </li>
-        <li>
-            <h3>Tema 3</h3>
-            <p class="p">INTRODUCCIÓN JS</p>
-        </li>
-    </ul>
+            <article>
+                <h2>Tema 3</h2>
+                <p>Descripcion del tema 3</p>
+            </article>
 
-    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4505.9243966079675!2d-96.71467765582624!3d17.0411293186661!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85c7224ee5ec2567%3A0x4797a73bea04c9c!2sSears%20Oaxaca!5e0!3m2!1ses-419!2smx!4v1645115657090!5m2!1ses-419!2smx" width="100%" height="400" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            <article>
+                <h2>Tema 4</h2>
+                <p>Descripcion del tema 4</p>
+            </article>
+        
+        </section>
 
-    <br>
-    <br>
-    <br>
-    <br>
-    
-    <table style="float: left">
-        <tr>
-          <th>Nombre</th>
-          <th>CURP</th>
-          <th>Telefono</th>
-        </tr>
-        <tr>
-          <td>Clemente</td>
-          <td>VARC241228ZZZLLLS</td>
-          <td>9513601869</td>   
-        </tr>
-      </table>
+        <aside>
+            <h2>Barra lateral</h2>
 
-      <table style="float: left">
-        <tr>
-          <th>Nombre</th>
-          <th>CURP</th>
-          <th>Telefono</th>
-        </tr>
-        <tr>
-          <td>Clemente</td>
-          <td>VARC241228ZZZLLLS</td>
-          <td>9513601869</td>   
-        </tr>
-      </table>
+            <form>
+                <input type="search">
+                <input value="Buscar" type="button">
+            </form>
+        </aside>
+        
+        <div class="componerSalto"></div>
 
+        <footer>
+            Clemente Eduardo Vasquez Reyes &copy; 2022
+        </footer>
+
+    </div>
 </body>
-</html> <!-- Etiqueta que cierrra -->
+</html>
